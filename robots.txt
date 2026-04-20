@@ -1,0 +1,43 @@
+# robots.txt for https://www.moversandpackersdubai.com
+# Movers and Packers Dubai
+
+User-agent: *
+Allow: /
+Disallow: /404.html
+Crawl-delay: 1
+
+User-agent: Googlebot
+Allow: /
+Disallow: /404.html
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Disallow: /404.html
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
+
+# Block aggressive scrapers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+Sitemap: https://www.moversandpackersdubai.com/sitemap.xml
+Host: https://www.moversandpackersdubai.com
